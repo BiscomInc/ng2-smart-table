@@ -122,7 +122,7 @@ export abstract class DataSource {
       elements: elements,
       paging: this.getPaging(),
       filter: this.getFilter(),
-      sort: this.getSort()
+      sort: this.getSort(),
     }));
   }
 }
